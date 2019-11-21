@@ -11,7 +11,7 @@ def call(Map config) {
 			steps{
 				dir('source'){
 					//git url:"${config.Git_url}",credentialsId:"${.config.Git_Credentials}",branch:"${config.Branch_Name}"
-					println "from sharedexample1
+					println "from sharedexample1"
 				}
 			}//steps
 		}//stage	
